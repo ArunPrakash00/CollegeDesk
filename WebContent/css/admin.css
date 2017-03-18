@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'abc';
+
+    src: url('../fonts/AlegreyaSans-Italic.ttf');
+
+}
+@font-face {
+    font-family: 'def';
+
+    src: url('../fonts/CreteRound-Italic.ttf');
+
+}
+
+@font-face {
+    font-family: 'ghi';
+
+    src: url('../fonts/Bhavuka-Regular.ttf');
+
+}
+
+
+
+
+body{
+    background-image: url("../images/b5.png");
+}
+
+#box
+{
+    width:350px;
+    height: 220px;
+    background-color: rgba(0, 0, 0, 0.82);
+    margin-left: 500px;
+    margin-top: 220px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+form{
+    color: #ffffff;
+    padding: 20px;
+    text-align:left;
+    font-size: 1.6em;
+    font-family: ghi;
+    position: absolute;
+
+    line-height: 50px;
+}
+
+input
+{
+    width: 200px;
+    font-size:0.6em;
+    padding:5px;
+    float: right;
+}
+
+input[type="submit"]
+{
+    width: 100px;
+    font-size:0.6em;
+    padding:5px;
+    float: right;
+}
+
+input[type="button"]
+{
+    width: 100px;
+    font-size:0.6em;
+    padding:5px;
+    float: left;
+}

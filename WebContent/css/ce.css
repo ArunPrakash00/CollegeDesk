@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'abc';
+
+    src: url('../fonts/AlegreyaSans-Italic.ttf');
+
+}
+@font-face {
+    font-family: 'def';
+
+    src: url('../fonts/CreteRound-Italic.ttf');
+
+}
+
+
+
+body{
+    background-color:darkturquoise;
+}
+
+
+#a
+{
+    width:1345px;
+    height: 620px ;
+    clear: none;
+    border: 2px double #000000;
+    background-color: transparent;
+    overflow: hidden;
+
+}
+
+
+form{
+    position: absolute;
+    font-family: def;
+    font-size: 1.4em;
+    margin-left: 30%;
+    margin-top: 20%;
+}
+
+input
+{
+    font-family: def;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+footer
+{
+
+    width: 100%;
+    height: 30%;
+
+    margin-top: 35%;
+    overflow: hidden;
+}
+
+
+footer>img
+{
+    margin-left: 48%;
+
+    width: 60px;
+
+}
+
+#footer_text
+{
+
+    color: rgb(126, 63, 58);
+    margin-left: 45%;
+
+
+}
+

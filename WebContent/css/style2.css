@@ -1,0 +1,362 @@
+@font-face {
+    font-family: 'abc';
+
+    src: url('../fonts/AlegreyaSans-Italic.ttf');
+
+}
+@font-face {
+    font-family: 'def';
+
+    src: url('../fonts/CreteRound-Italic.ttf');
+
+}
+
+@font-face {
+    font-family: 'ghi';
+
+    src: url('../fonts/Bhavuka-Regular.ttf');
+
+}
+
+body
+{
+    background-color: #222729;
+    
+}
+
+#ab
+{
+    height: 100%;
+    width: 20%;
+    background-color: #222729;
+    display: block;
+    float: left;
+    color: #ffffff;
+    position: fixed;
+
+
+}
+
+#ab1
+{
+    height: 150px;
+    width: 150px;
+
+    overflow: hidden;
+    margin-left: 20%;
+    margin-top: 15%;
+}
+
+#ab1> img
+{
+    height: 150px;
+    width: 150px;
+
+}
+#ab2
+{
+    text-align: center;
+    line-height: 5px;
+}
+
+#ab3
+{
+    text-align: right;
+    line-height: 40px;
+    float: none;
+    margin-top: 100px;
+    padding: 20px;
+
+}
+
+#ab3 > a
+{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: def;
+}
+
+#t1
+{
+	background-color:transparent;
+	position:absolute;
+	z-index:100;
+	margin-top:20px;
+	margin-left:270px;
+	overflow:scroll;
+	font-family:ghi;
+	font-size:0.8em;
+	line-height:50px;
+	width:500px;
+	text-align:center;
+	font-weight:bold;
+	padding:10px;
+	
+}
+
+
+
+
+
+#ab3>a:hover
+{
+    color: yellow;
+
+}
+
+#ab3>a:active
+{
+    color:lightcoral;
+}
+
+
+
+#cd
+{
+    height: 100%;
+    color: #000000;
+    width: 79%;
+    background-color: red;
+    float: right;
+    overflow: scroll;
+
+}
+
+#cd0
+{
+    height:630px;
+    background-color: #afdefa;
+    width: 100%;
+    margin-top: 0;
+    font-size: 1.8em;
+    font-family: def;
+    overflow: hidden;
+
+}
+
+#cd3
+{
+    height:370px;
+    background-color: #afdefa;
+    width: 100%;
+    margin-top: 0;
+    font-size: 1.6em;
+    font-family: ghi;
+    text-align:center;
+    padding-top:250px;
+    
+
+}
+
+
+
+#cd0>h3
+{
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+
+#cd1
+{
+    height: 630px;
+    width: 100%;
+    background-color: #6CB825;
+
+    font-size: 1.8em;
+    font-family: def;
+    overflow: hidden;
+
+
+
+
+
+}
+
+#cd1>h3
+{
+    margin-left: 20%;
+    margin-top: 20%;
+}
+
+
+#search
+{
+
+    padding: 0;
+
+    width: 50%;
+    margin-left: 20%;
+
+
+    border-radius: 7px;
+
+    overflow: hidden;
+}
+
+#search>form>#text
+{
+    width: 70%;
+
+    background-color: transparent;
+    height: 100%;
+    color:black;
+    font-style: italic;
+    overflow: hidden;
+    padding: 0;
+
+
+}
+
+#search>form>#text>input
+{
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 0;
+    border: 0 solid transparent;
+    font-family: def;
+    padding: 10px;
+    color: #000000;
+    margin: 1px auto;
+    font-size: 0.6em;
+}
+
+
+#search>form>#button
+{
+
+
+    background-color: transparent;
+
+    height: 100%;
+    padding: 0;
+
+    overflow: hidden;
+    margin-left: 85%;
+
+
+}
+#search>form>#button>input
+{
+
+    background-color:#222729;
+
+    margin: 0 auto ;
+    clear: both;
+    font-size: 1em;
+    font-family: abc;
+    color: #fbffff;
+    border: 2px solid #222729;
+    border-radius: 2px;
+
+}
+
+
+
+#cd2
+{
+    height:630px;
+    background-color: #afdefa;
+    width: 100%;
+    margin-top: 0;
+    font-size: 1.8em;
+    font-family: def;
+    overflow: hidden;
+
+}
+
+#cd2>h3
+{
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.popup-position
+{   display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:
+    rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+}
+
+#popup-wrapper
+{   width: 500px;
+    margin: 70px auto;
+    text-align: left;
+}
+
+#popup-container
+{   background-color: #FFF;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+#wrapper
+{   width: 600px;
+    text-align: left;
+    z-index: 100;
+    position: absolute;
+    background-color: transparent;
+    margin-top: 52%;
+    margin-left: 45%;
+    text-align: right;
+}
+/*
+footer img
+{
+    width: 100%;
+    height: 100%;
+}*/
+
+#feedback_form
+{
+    text-align: center;
+}
+
+#feedback_form>label
+{
+    line-height: 30px;
+}
+
+#feedback_form>label>input
+{
+    border: 2px solid rgba(0, 0, 0, 0.43);
+    font-size: 1.2em;
+    width: 200px;
+    border-radius: 0;
+    padding: 1px;
+}
+
+#feedback_form>label>span
+{
+    position: absolute;
+    background-color: transparent;
+    top: 270px;
+    left: 480px;
+
+}
+
+
+
+textarea
+{
+    height: 80px;
+    margin-left: 10%;
+    border: 2px solid rgba(0, 0, 0, 0.43);
+    margin-top: 10px;
+    width: 200px;
+    max-width: 200px;
+    font-size: inherit;
+    font-family: inherit;
+    color: #000000;
+
+}
+
+
+.Red
+{
+    color: #cc0000;
+}

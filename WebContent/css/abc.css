@@ -1,0 +1,295 @@
+@font-face {
+    font-family: 'abc';
+
+    src: url('../fonts/AlegreyaSans-Italic.ttf');
+
+}
+@font-face {
+    font-family: 'def';
+
+    src: url('../fonts/CreteRound-Italic.ttf');
+
+}
+
+@font-face {
+    font-family: 'ghi';
+
+    src: url('../fonts/Bhavuka-Regular.ttf');
+
+}
+
+body
+{
+	background-color:rgb(40,40,40) ; 
+	
+	
+}
+
+
+#a
+{	
+	width:240px;
+	height:650px;
+	background-color:transparent;
+	float:left;
+	color:white;
+	font-size:1.4em;
+	text-align:right;
+	position:fixed;
+	font-family:def;
+	
+	
+}
+
+
+
+
+
+img
+{
+    height: 150px;
+    width: 150px;
+	position:absolute;
+	z-index:100;
+	padding-top:50px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:0;
+
+}
+
+#b
+{
+	position:absolute;
+	color:white;
+	top:210px;
+	left:80px;
+	z-index:100;
+	text-align:center;
+
+}
+
+.aa>p
+{
+	margin-top:350px;
+	line-height:35px;
+	padding:20px;
+}
+
+#a>p>a:link
+{
+	text-decoration:none; 
+	color:white;
+}
+
+#a>p>a:hover
+{
+	color:yellow;
+}
+
+#a>p>a:visited
+{
+	color:lightpink;
+}
+
+#c
+{
+	float:right;
+	width:1105px;
+	height:650px;
+	background-color:#FFCCFF; 
+	
+	z-index:150;
+	
+	
+}
+
+#c>p
+{
+	left:300px;
+	top:100px;
+	position:absolute;
+	z-index:80;
+	color:black;
+}
+
+
+#t1
+{
+	background-color:transparent;
+	position:absolute;
+	z-index:100;
+	margin-top:100px;
+	margin-left:500px;
+	overflow:scroll;
+	font-family:ghi;
+	font-size:1.4em;
+	line-height:50px;
+	width:400px;
+	text-align:center;
+	font-weight:bold;
+	padding:10px;
+	border:2px double black;
+}
+
+
+#t2
+{
+	background-color:transparent;
+	position:absolute;
+	z-index:100;
+	margin-top:100px;
+	margin-left:500px;
+	overflow:scroll;
+	font-family:ghi;
+	font-size:1.6em;
+	line-height:50px;
+	width:650px;
+	text-align:left;
+	font-weight:bold;
+	padding:10px;
+	border:0px double black;
+}
+
+
+#t3
+{
+	background-color:transparent;
+	position:absolute;
+	z-index:100;
+	margin-top:100px;
+	margin-left:500px;
+	overflow:scroll;
+	font-family:ghi;
+	font-size:1.6em;
+	line-height:50px;
+	width:650px;
+	text-align:left;
+	font-weight:bold;
+	padding:10px;
+	border:0px double black;
+}
+
+
+#t4
+{
+	background-color:transparent;
+	position:absolute;
+	z-index:100;
+	margin-top:250px;
+	margin-left:500px;
+	overflow-x:hidden;
+	font-family:ghi;
+	font-size:1.4em;
+	line-height:50px;
+	width:450px;
+	text-align:left;
+	font-weight:bold;
+	padding:10px;
+	border:0px double black;
+	height:350px;
+	border:2px;
+}
+
+#t5
+{
+	background-color:transparent;
+	position:absolute;
+	z-index:100;
+	
+	
+	overflow:scroll;
+	font-family:ghi;
+	font-size:1em;
+	line-height:50px;
+	width:630px;
+	text-align:left;
+	font-weight:bold;
+	padding:0;
+	border:0px double black;
+}
+
+#t6
+{
+	background-color:transparent;
+	position:absolute;
+	z-index:100;
+	margin-top:20px;
+	margin-left:500px;
+	overflow:scroll;
+	font-family:ghi;
+	font-size:1.6em;
+	line-height:50px;
+	width:650px;
+	text-align:left;
+	font-weight:bold;
+	padding:10px;
+	border:0px double black;
+}
+
+
+
+
+input
+{
+	font-size:0.6em;
+	padding:10px;
+}
+
+footer>img
+{
+    margin-left: 45%;
+    margin-top: 50px;
+   
+	
+    position: absolute;
+
+}
+
+#footer_text
+{
+    position: absolute;
+    color: rgb(126, 63, 58);
+    margin-left: 49.2%;
+    margin-top: 260px;
+
+}
+
+#t8
+{
+	background-color:transparent;
+	position:absolute;
+	z-index:100;
+	margin-top:50px;
+	margin-left:200px;
+	overflow-x:hidden;
+	font-family:ghi;
+	font-size:1.4em;
+	line-height:50px;
+	width:650px;
+	text-align:left;
+	font-weight:bold;
+	padding:10px;
+	border:0px double black;
+	height:400px;
+	border:2px;
+}
+
+#t9
+{
+	background-color:transparent;
+	position:absolute;
+	z-index:100;
+	
+	
+	overflow:scroll;
+	font-family:ghi;
+	font-size:1em;
+	line-height:50px;
+	width:630px;
+	text-align:left;
+	font-weight:bold;
+	padding:0;
+	border:0px double black;
+}
+
